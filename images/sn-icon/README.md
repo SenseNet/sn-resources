@@ -14,17 +14,20 @@ Favicon.png:
 [iPad (Retina) 152x152](sensenet-icon-152.png), 
 [Opera Coast Browser (iPad) 228x228](sensenet-icon-152.png)
 
+
 ## Windows
 Application, document and control panel icons
-| Sizes (px)               	| Download                                                  	|
-|--------------------------	|-----------------------------------------------------------	|
-| 16x16                    	| [ico](sensenet-icon-16.ico) [png](sensenet-icon-16.png)   	|
-| 24x24                    	| [ico](sensenet-icon-24.ico) [png](sensenet-icon-24.png)   	|
-| 32x32                    	| [ico](sensenet-icon-32.ico) [png](sensenet-icon-32.png)   	|
-| 48x48                    	| [ico](sensenet-icon-48.ico) [png](sensenet-icon-48.png)   	|
-| 64x64                    	| [ico](sensenet-icon-64.ico) [png](sensenet-icon-64.png)   	|
-| 128x128                  	| [ico](sensenet-icon-128.ico) [png](sensenet-icon-128.png) 	|
-| 256x256 (Windows Vista+) 	| [ico](sensenet-icon-256.ico) [png](sensenet-icon-256.png) 	|
+
+|Sizes (px)               	|Download                                                  	  |
+|---------------------------|-------------------------------------------------------------|
+| 16x16                    	| [ico](sensenet-icon-16.ico), [png](sensenet-icon-16.png)   	|
+| 24x24                    	| [ico](sensenet-icon-24.ico), [png](sensenet-icon-24.png)   	|
+| 32x32                    	| [ico](sensenet-icon-32.ico), [png](sensenet-icon-32.png)   	|
+| 48x48                    	| [ico](sensenet-icon-48.ico), [png](sensenet-icon-48.png)   	|
+| 64x64                    	| [ico](sensenet-icon-64.ico), [png](sensenet-icon-64.png)   	|
+| 128x128                  	| [ico](sensenet-icon-128.ico), [png](sensenet-icon-128.png) 	|
+| 256x256 (Windows Vista+) 	| [ico](sensenet-icon-256.ico), [png](sensenet-icon-256.png) 	|
+
 
 ## Android launcher icons
 
