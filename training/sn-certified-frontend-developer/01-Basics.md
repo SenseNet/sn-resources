@@ -76,15 +76,22 @@ There are many advantages:
 | Label	                    |Tag|
 | ‘Compare Local to Server’	|Fetch|
 | Checkin and get Latest	|Sync|
+
 [original article](https://wilsonmar.github.io/tfs-vs-github/)
 
 
 ### Useful links
+
 [Summary about the GIT Contepts](https://www.intertech.com/Blog/introduction-to-git-concepts/)
+
 [Download GIT client for Windows](https://git-scm.com/download/win)
+
 [SourceTree, a Windows app for GIT Repositories and Git Flow](https://www.sourcetreeapp.com/)
+
 [GIT cheat sheet on GitHub](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+
 [About Pull Requests on GitHub](https://help.github.com/articles/about-pull-requests/)
+
 [git-flow cheat sheet](https://danielkummer.github.io/git-flow-cheatsheet/)
 
 
