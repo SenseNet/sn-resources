@@ -1,4 +1,4 @@
-# 01 - Basics
+# 01 - Be part of the community
 
 ## Git - Basic concepts and operations
 
