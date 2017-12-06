@@ -1,5 +1,16 @@
 # 01 - Be part of the community
 
+## Where and how to [contact](https://community.sensenet.com/contact/)
+
+ - "How can I...?" &rarr; [StackOverflow with sensenet tag](https://stackoverflow.com/questions/ask?tags=sensenet) 
+ - Submit a new issue &rarr; [GitHub](https://github.com/SenseNet) (on the corresponding repository)
+ - Create a pull request &rarr; [GitHub](https://github.com/SenseNet) (on the corresponding repository)
+ - Found a typo in the *[Community Site docs?](https://community.sensenet.com/docs/)* &rarr; Create a Pull Request in the [Community site's GitHub Repository](https://github.com/SenseNet/sensenet.github.io)
+
+## Stack Overflow
+
+**ToDo**
+
 ## Git - Basic concepts and operations
 
 ### Remote and Local repositories
@@ -30,6 +41,9 @@ Your files will be *overridden* during branch checkout.
 ### .gitignore
 
 If there are local files / directories that you want to be ignored, you can add them to the **.gitignore** file.
+**Strong recommendation:**
+ - Always ignore external packages / libraries that are managed by a package manager (e.g. NPM's *node_modules* or NuGet Packages). They should be installed by the Package Manager with ```npm install``` or ```nuget restore```.
+ - Ignore build artifacts (dll, exe, minified/bundled js, etc...). They should be created *during* the build process
 
 ### GIT Flow
 Git Flow is a recommendation how you can manage your feature, release and hotfix branches.
@@ -95,4 +109,16 @@ There are many advantages:
 [git-flow cheat sheet](https://danielkummer.github.io/git-flow-cheatsheet/)
 
 
+## Contributing GitHub
+
+Read the [Contribution Guide](https://github.com/SenseNet/sensenet/blob/master/CONTRIBUTING.md)
+**ToDo**
+
+
+### Related Egghead Training
+
+[How to contribute to an open source project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+
 ## Visual Studio Code
+
+**ToDo**
