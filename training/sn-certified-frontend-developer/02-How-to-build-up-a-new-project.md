@@ -28,23 +28,20 @@ Create your first open source js project and learn how to maintaining it on gith
  - npm init
 
 #### 02 - Working with packages
- - npm i typescript
- - npm i rimraf
+ - npm i commitizen
  - npm i
 
 #### 03 - Creating a Hello Word application
  - Folder structure
     - ./src
     - ./dist
-        - index.ts
+        - index.js
  - setting up gitignore
  - package.json changes
     - setting up 'main'
     - setting up 'files'
-    - setting up 'typings'
 
 #### 04 - NPM Scripts
- - Create Build script
- - Create Clean script
+ - Create Commit script
  - Create Run script
  - Hooks
