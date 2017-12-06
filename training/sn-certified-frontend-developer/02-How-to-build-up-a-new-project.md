@@ -37,7 +37,7 @@ Create your first open source js project and learn how to maintaining it on gith
  1. Publish the *develop* branch to GitHub: ```git push --set-upstream origin develop```
 
 #### Create  your first Feature branch for creating the readme file
- 1. Create the *feature* branch: ```git branch feature/readme```
+ 1. Create the *feature* branch: ```git branch feature/readme develop```
  1. Checkout the *feature* branch: ```git checkout feature/readme```
  1. Publish the *feature* branch to GitHub: ```git push --set-upstream origin feature/readme```
 
@@ -57,17 +57,16 @@ Create your first open source js project and learn how to maintaining it on gith
  1. Change the **base** from **master** to **develop**
  1. Create the Pull Request
 
-### Merge to Dev & Master
+### Merge to Dev
  1. Open the previously created pull request
- 1. Merge pull request
-
-Create and merge another pull request from *develop* to *master*
+ 1. Merge pull request. Now, *develop* branch will have the changes on the Readme.
+ 1. You can now delete the feature branch
 
 ### Lesson 2 NodeJS and NPM
 
 
 #### Initializing project
- 1. Create and check out a new feature branch: ```git branch feature/npm-init``` and ```git checkout feature/npm-init```
+ 1. Create and check out a new feature branch: ```git branch feature/npm-init develop``` and ```git checkout feature/npm-init```
  1. Publish the branch: ```git push --set-upstream origin feature/npm-init```
  1. type ```npm init`` to start the initialization (we can leave all values for the default for now and YES at the end)
  1. Open **package.json** - basic structure
@@ -101,4 +100,15 @@ The following commit message will be generated: *feat(package): Initialized NPM 
  1. You can create **prestart** and **poststart** scripts. These will be executed *before* and *after* the script. They will be useful if you want to *build* before start, or run a *cleanup* after a script is finished
 
 At this point, you will have *two* changes (index.js and package.json). 
-You can commit them using Commitizen and finish the feature (merge the Pull request)
+You can create two separate commit (one for package.json scripts and one for the new file). Try to make small, incremental commits with meaningful scopes and messages.
+You can now finish the feature (merge the Pull request to develop) and delete the feature branch
+
+### An example release
+1. Create a *release/1.0.0* branch from *develop*: ```git branch release/1.0.0 develop``` and check it out: ```git checkout release/1.0.0```.
+1. Usually, at this point you can do some release-specific changes (e.g. bumping version number). For now, let's update the Readme with the latest released version and commit it.
+1. Publish the release branch
+1. On GitHub, Create and finish a pull request from the **release branch** to **master**. You can use **Sqash and merge**. Remove the release branch.
+1. On the console, check out the master branch and add a tag: ```git tag 1.0.0```. Push the *tags*: ```git push --tags```
+1. Create and finish a pull request from **master** to **develop**. 
+At this point, you have only **master** and **develop** branches, and they contains the same commits.
+1. Finially, you can check *releases* and update the Release Notes
