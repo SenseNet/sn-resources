@@ -9,7 +9,26 @@
 
 ## Stack Overflow
 
-**ToDo**
+### Why?
+Your questions and answers can be valuable to the community. Take a [Tour](https://stackoverflow.com/tour) on StackOverflow.
+
+### How to gain reputation
+ - question is voted up: +5
+ - answer is voted up: +10
+ - answer is marked “accepted”: +15 (+2 to acceptor)
+ - suggested edit is accepted: +2 (up to +1000 total per user)
+
+### Loose reputation
+ - your question is voted down: −2
+ - your answer is voted down: −2
+ - you vote down an answer: −1
+ - one of your posts receives 6 spam or offensive flags: −100
+
+### Use Tags
+There is a [sensenet](https://stackoverflow.com/questions/tagged/sensenet) tag on
+You can also *subscribe* to questions marked with a specific tag.
+
+[Original post](https://stackoverflow.com/help/whats-reputation)
 
 ## Git - Basic concepts and operations
 
@@ -35,7 +54,9 @@ You can *push* your commit to a remote repository with the ```git push``` comman
 
 ### Create branch, checkout, merge
 
-You can create a new branch with ```git branch mybranchname```. You can switch between branches with the **checkout** command like ```git checkout mybranchname```.
+You can create a new branch with ```git branch mybranchname```. Git providers usually handles *branch names* as paths, so you can create a virtual *folder* for features by creating a feature branch like this: ```git branch feature/my-new-awesome-feature```.
+
+You can switch between branches with the **checkout** command like ```git checkout mybranchname```.
 Your files will be *overridden* during branch checkout.
 
 ### .gitignore
@@ -43,13 +64,15 @@ Your files will be *overridden* during branch checkout.
 If there are local files / directories that you want to be ignored, you can add them to the **.gitignore** file.
 **Strong recommendation:**
  - Always ignore external packages / libraries that are managed by a package manager (e.g. NPM's *node_modules* or NuGet Packages). They should be installed by the Package Manager with ```npm install``` or ```nuget restore```.
- - Ignore build artifacts (dll, exe, minified/bundled js, etc...). They should be created *during* the build process
+ - Ignore build artifacts (dlls, exes, minified/bundled js, etc...). They should be created *during* the build process.
+ - Try to avoid commiting large binaries.
 
 ### GIT Flow
 Git Flow is a recommendation how you can manage your feature, release and hotfix branches.
 It has two mandatory branches:
  - master - usually the *latest released* codebase
  - develop (or development) - the latest *not released, but finished* features
+
 #### Feature development workflow
  1. Create a new *feature branch* from develop
  1. Implement the feature in the *feature branch*
@@ -110,10 +133,29 @@ There are many advantages:
 
 
 ## Contributing GitHub
+Please always read the [contribution guide](https://github.com/SenseNet/sensenet/blob/master/CONTRIBUTING.md) before contributing.
 
-Read the [Contribution Guide](https://github.com/SenseNet/sensenet/blob/master/CONTRIBUTING.md)
-**ToDo**
+### Creating new issues
 
+ - Always provide a short meaningful title and description
+ - State the exact version number of the project you are using
+ - Provide some details on the environment (browser type in case of client-side issues, dev machine or server, stuff like that).
+ - List the steps you took
+ - Code samples, screenshots, log entries
+
+### Making a change (Pull request)
+
+ - Avoid making broad changes (e.g. a huge refactor) before talking to us; the more files you change, the harder it is to review and merge the commit.
+ - Create a [fork](https://help.github.com/articles/working-with-forks/) and a *feature branch*
+ - Please follow the [coding conventions](http://wiki.sensenet.com/Coding_Conventions) for .NET Projects. Respect our *tslint rules* for npm projects.
+ - Test your code.
+ - Run the unit tests before submitting the *pull request*. Add some tests, if possible.
+ - When you are confident with your fix/feature, create a pull request. We will get notified right away 😃.
+Please be patient if we do not accept the pull request immediately or ask for changes. We'll try to justify our change requests so that you know our intentions. It may speed up the process, if you allow us to modify your branch when you create the pull request.
+
+### What are we working on?
+
+We use the excellent [ZenHub](https://www.zenhub.com/) addon for managing GitHub issues. You can track the status on our [board](https://github.com/SenseNet/sensenet#boards)
 
 ### Related Egghead Training
 
@@ -121,4 +163,33 @@ Read the [Contribution Guide](https://github.com/SenseNet/sensenet/blob/master/C
 
 ## Visual Studio Code
 
-**ToDo**
+### Why we love using VS Code?
+ - Lightweight and fast
+ - Great tooling support for NodeJs, NPM, Typescript and modern web technologies
+ - [Frequent releases](https://code.visualstudio.com/updates/)
+ - Free, open source, multiplatform
+
+[Download](https://code.visualstudio.com/)
+
+### Recommended addons
+[TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+[Git History(Git log)](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+[Chrome Debugger](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+[Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) (optional)
+
+### Recommended Config changes
+
+You can change your user-related settings by ```ctrl+shift+p```, **Open user settings**
+
+```"tslint.autoFixOnSave": true``` - Auto fixable tslint errors will be fixed before saving a file.
+
+### Optional config goodies
+
+```"editor.minimap.enabled": true,``` - Enables a minimap on the right side
+
+```"editor.codeLens": true,``` - Enables CodeLens
+
+```"typescript.referencesCodeLens.enabled": true,``` - CodeLens for references
+
+```"typescript.implementationsCodeLens.enabled": true,``` - CodeLens for interface implementations
+
