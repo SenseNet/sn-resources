@@ -1,0 +1,38 @@
+{
+  "name": "sn-resources",
+  "version": "1.0.0",
+  "description": "The place of sensenet ECM related downloadable resources",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SenseNet/sn-resources.git"
+  },
+  "keywords": [
+    "sensenet",
+    "resources",
+    "images",
+    "documentation",
+    "training"
+  ],
+  "author": "",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/SenseNet/sn-resources/issues"
+  },
+  "homepage": "https://github.com/SenseNet/sn-resources#readme",
+  "config": {
+    "commitizen": {
+      "path": "sensenet-kfi-cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "commitizen": "^2.9.6",
+    "sensenet-kfi-cz-conventional-changelog": "^1.0.0"
+  }
+}
