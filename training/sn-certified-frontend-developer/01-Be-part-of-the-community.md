@@ -3,6 +3,7 @@
 ## Where and how to [contact](https://community.sensenet.com/contact/)
 
  - "How can I...?" &rarr; [StackOverflow with sensenet tag](https://stackoverflow.com/questions/ask?tags=sensenet) 
+ - For longer-form conversations about a sensenet component, please join the related [gitter](https://gitter.im) channel
  - Submit a new issue &rarr; [GitHub](https://github.com/SenseNet) (on the corresponding repository)
  - Create a pull request &rarr; [GitHub](https://github.com/SenseNet) (on the corresponding repository)
  - Found a typo in the *[Community Site docs?](https://community.sensenet.com/docs/)* &rarr; Create a Pull Request in the [Community site's GitHub Repository](https://github.com/SenseNet/sensenet.github.io)
