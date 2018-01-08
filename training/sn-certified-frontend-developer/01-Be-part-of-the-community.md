@@ -24,9 +24,29 @@ Your questions and answers can be valuable to the community. Take a [Tour](https
  - you vote down an answer: −1
  - one of your posts receives 6 spam or offensive flags: −100
 
-### Use Tags
-There is a [sensenet](https://stackoverflow.com/questions/tagged/sensenet) tag on
-You can also *subscribe* to questions marked with a specific tag.
+### How to earn reputation quickly
+- Subscribe to tags (There is a [sensenet](https://stackoverflow.com/questions/tagged/sensenet) tag)
+- Ask first on stackoverflow
+- Ask GOOD questions (with sample code, screenshots, etc)
+- Post high quality answers (with examples, sample code, screenshots, etc)
+- Try to be the first who answers
+- Use upvote and comments
+- Define your speciality and go Niche
+- Use formatting and lists wisely
+- Edit questions and answers
+- Provide a good and simple code example
+- Be the biggest
+- Add pictures
+- Use JS Bin
+- Provide additional helpful info related to the question
+- Help others to make their answers better, collaborate
+- Provide detailed analysis of the question
+- Post an answer that does what the OP wants, but the way it should be done
+- Post multiple answers that are significaly different
+- Once you have the priviledge to review, review a lot
+- Use google effectively
+- Keep your reference open
+- Involve yourself to earn badges
 
 [Original post](https://stackoverflow.com/help/whats-reputation)
 
