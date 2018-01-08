@@ -178,6 +178,17 @@ Please be patient if we do not accept the pull request immediately or ask for ch
 
 We use the excellent [ZenHub](https://www.zenhub.com/) addon for managing GitHub issues. You can track the status on our [board](https://github.com/SenseNet/sensenet#boards)
 
+### Where to start creating pull requests
+
+- Find a sensenet issue labeled with ```help wanted```. These are marked by the snteam as [good first issues](https://github.com/search?utf8=%E2%9C%93&q=org%3ASenseNet+type%3Aissue+is%3Aopen+label%3A%22help+wanted%22&type=).
+- Read sensenet docs, find and fix grammar issues or typos.
+- Read our blog posts, find and fix grammar issues or typos.
+- Did you find a missing doc? Write it and make a pull request to the related sensenet repo.
+- Write a blog post and make a pull request to the [sensenet.github.io repository](https://github.com/SenseNet/sensenet.github.io),
+- Find bugs and fix them and make a pull request in the related sensenet repo instead of creating an issue about it
+- Move your (sensenet or non-sensenet) petproject to github and use pull requests to manage your development process
+- Of course you can make pull requests in any repositories on github that you know, use and like or dislike. 
+
 ### Related Egghead Training
 
 [How to contribute to an open source project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
