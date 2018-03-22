@@ -34,7 +34,7 @@
  
 ## Commits, branching and pull requests
  - Generate your commits with [Commitizen](https://github.com/commitizen/cz-cli) command line utility
- - Use semantic versioning
+ - Use [semantic versioning](https://semver.org/)
  - Always use the GIT Flow and pull requests
  - Monitor your pull requests with CI tools. Enable status checks for:
      - codecov/patch
