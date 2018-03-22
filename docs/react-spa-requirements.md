@@ -6,8 +6,10 @@
  - Set the *.gitignore* to *Node*
  - Set the publicity and the license according to your needs
  
-## Project settings and scaffolding
+## Project settings and scaffolding, IDE
+ - Use [Visual Studio Code](https://code.visualstudio.com/) for SPA development
  - Creating the project structure with [create-react-app-typescript](https://github.com/wmonk/create-react-app-typescript) is **highly recommended** with *ejecting*
+     - You should turn off *uglify* for production builds
  - Use Webpack for bundling and for development server
  - Write your code in [TypeScript](https://www.typescriptlang.org/) and your components in *tsx*
  - Set the tsconfig type checking rules as strict as possible. You can take [our](https://github.com/SenseNet/sn-dms-demo/blob/master/tsconfig.json) tsconfig as a starting point
