@@ -19,7 +19,7 @@
 ## Usage with Sensenet
  - Always use the latest released version of the [@sensenet](https://www.npmjs.com/search?q=%40sensenet) scoped packages from NPM
     - Use [@sensenet/redux](https://www.npmjs.com/package/@sensenet/redux) for React/Redux 
- 
+
 ## CI Tools
  - Set up [Travis](https://travis-ci.org/) for CI builds. you can take our [config](https://github.com/SenseNet/sn-client-core/blob/master/.travis.yml) as a starting point
     - Always build your project on the latest **LTS and Current** version of node.js
@@ -32,12 +32,12 @@
  - Enable [GreenKeeper](https://greenkeeper.io/) to monitor your dependencies
  - Enable **license/cla** if required
  
-## Branching and pull requests
+## Commits, branching and pull requests
+ - Generate your commits with [Commitizen](https://github.com/commitizen/cz-cli) command line utility
+ - Use semantic versioning
  - Always use the GIT Flow and pull requests
  - Monitor your pull requests with CI tools. Enable status checks for:
      - codecov/patch
      - codecov/project
      - continuous-integration/travis-ci
      - license/cla (if required)
-     
-     
