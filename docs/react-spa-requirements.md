@@ -41,3 +41,6 @@
      - codecov/project
      - continuous-integration/travis-ci
      - license/cla (if required)
+     
+## References
+-  [Introduction to How to Write an Open Source JavaScript Library](https://egghead.io/lessons/javascript-introduction-to-how-to-write-an-open-source-javascript-library)
