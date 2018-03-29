@@ -12,7 +12,7 @@ If you need to look into the docs, first look for information on the sensenet [C
  
 ## Dev framework
 - For a frontend-centric solution see [this article](react-spa-requirements.md).
-- For ASP.NET development use **MVC** and **Web API**
+- For ASP.NET development use **MVC** and/or **Web API**
 > **Do not** use WebForms and old portal pages/portlets for new projects.
 
 ## Tests
@@ -36,4 +36,6 @@ If you need to look into the docs, first look for information on the sensenet [C
 - Always use SnAdmin packages to upgrade the application and the repository.
 - For simple import/export or other common scenarios you may use the built-in [SnAdmin tools](https://community.sensenet.com/docs/snadmin-tools/) instead of creating packages manually.
 
-> **Do not** modify the official sensenet libraries or repository parts manually - except if you forked the source code or need to debug the core libraries.
+> **Do not** modify the official sensenet libraries, packages or database manually - except if you forked the source code or need to debug the core libraries.
+>
+> **Do not** attempt to upgrade the application manually.
