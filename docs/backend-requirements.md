@@ -1,5 +1,8 @@
 # Backend development requirements
 
+## Documentation
+If you need to look into the docs, first look for information on the sensenet [Community site](https://community.sensenet.com). If you do not find something there (for example because working with an old api or component), you may try the old [wiki site](http://wiki.sensenet.com).
+
 ## Version control
 
 - Create a repository on [GitHub](https://github.com) or on a private git server.
