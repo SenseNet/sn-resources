@@ -1,2 +1,2 @@
 # sn-resources
-The place of sensenet ECM related downloadable resources.
+The place of sensenet related downloadable resources.
