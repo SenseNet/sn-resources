@@ -112,3 +112,5 @@ You can now finish the feature (merge the Pull request to develop) and delete th
 1. Create and finish a pull request from **master** to **develop**. 
 At this point, you have only **master** and **develop** branches, and they contains the same commits.
 1. Finially, you can check *releases* and update the Release Notes
+
+[Single Page Application requirements](https://github.com/SenseNet/sn-resources/blob/master/docs/react-spa-requirements.md)
