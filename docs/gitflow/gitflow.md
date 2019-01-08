@@ -25,7 +25,7 @@ On Wednesday:
 * Related issues --> Close
 
 ## Hotfix flow
-* Open *hotfix* branch from *master* branch
+* Create *hotfix* branch from *master* branch
 * Open a pull request (enables you to have a look on netlify, etc)
 * Fix
 * Ask for review and testing. Related hotfix issues --> Review
