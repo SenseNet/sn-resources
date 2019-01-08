@@ -1,5 +1,17 @@
 # SN Gitflows
 
+# Branches
+Permanent branches
+* *master*: for releases and production environments
+* *develop*: for aggregating feature developments
+
+?where do bugs go?
+
+Temporary branches
+* feature: for feature developments
+* hotfix: for urgent and high importance fixes
+* staging: for creating QA build with released backend(?)
+
 ## Feature flow
 * Start with a well defined issue
 * Create a *feature* branch from *develop* branch
@@ -8,6 +20,7 @@
 * Ask for review and testing. Related issues --> Review
 * Review. Test it with the latest sensenet release (semi random netlify URL). Related issues --> Done
 * Merge back to *develop* branch (not during release flow)
+* Remove *feature* branch
 
 ## Release flow
 Every 4th Monday
