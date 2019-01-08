@@ -1,5 +1,12 @@
 # SN Gitflows
 
+Branches (?where do bugs go?)
+* *master*: permanent branch for releases and production environments
+* *develop*: permanent branch for aggregating feature developments
+* *feature*: temporary branch for feature developments
+* *hotfix*: temporary branch for urgent and high importance fixes
+* *staging*: temporary branch for creating QA build with released backend(?)
+
 ## Feature flow
 * Start with a well defined issue
 * Create a *feature* branch from *develop* branch
@@ -52,16 +59,4 @@ Staging
 Develop
 * Backend: https://dmsservice.dev.sensenet.com - *develop* - build daily(?)
 * Frontend: https://sn-dms-demo-dev.netlify.com - *develop* - built on change(?)
-
-## Branches
-Permanent branches
-* *master*: for releases and production environments
-* *develop*: for aggregating feature developments
-
-?where do bugs go?
-
-Temporary branches
-* *feature*: for feature developments
-* *hotfix*: for urgent and high importance fixes
-* *staging*: for creating QA build with released backend(?)
 
