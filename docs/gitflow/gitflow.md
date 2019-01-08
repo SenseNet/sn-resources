@@ -54,7 +54,7 @@ Release
 
 Staging
 * Backend: https://dmsservice.demo.sensenet.com - *master*
-* Frontend: https://sn-dms-demo-*staging*.netlify.com - *staging*
+* Frontend: https://sn-dms-demo-staging.netlify.com - *staging*
 
 Develop
 * Backend: https://dmsservice.dev.sensenet.com - *develop* - build daily(?)
