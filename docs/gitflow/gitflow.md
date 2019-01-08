@@ -34,7 +34,7 @@ On Wednesday:
 
 ## Hotfix flow
 * Create *hotfix* branch from *master* branch
-* Open a pull request (enables you to have a look on netlify, etc)
+* Open a pull request to *master* branch
 * Fix
 * Ask for review and testing. Related hotfix issues --> Review
 * Review and test. Related hotfix issues --> Done
