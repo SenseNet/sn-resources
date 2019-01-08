@@ -34,6 +34,7 @@ On Wednesday:
 * Lerna publish
 * Merge *hotfix* into *master*
 * Merge *hotfix* into *develop*
+* Remove *hotfix* branch
 * Related issues --> Close
 
 # URLs and branches
