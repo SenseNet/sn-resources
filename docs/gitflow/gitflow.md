@@ -10,7 +10,7 @@ Branches
 ## Feature flow
 * Start with a well defined issue
 * Create a *feature* branch from *develop* branch
-* Open a pull request (enables you to have a look on netlify, etc)
+* Open a pull request (enables you to have a look on netlify, etc) to *developer* branch
 * Work on it
 * Ask for review and testing. Related issues --> Review
 * Review. Test it with the latest sensenet release (semi random netlify URL). Related issues --> Done
