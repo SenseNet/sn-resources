@@ -4,8 +4,8 @@ Branches (?where do bugs go?)
 * *master*: permanent branch for releases and production environments
 * *develop*: permanent branch for aggregating feature developments
 * *feature*: temporary branch for feature developments
-* *hotfix*: temporary branch for urgent and high importance fixes
 * *staging*: temporary branch for creating QA build with released backend(?)
+* *hotfix*: temporary branch for urgent and high importance fixes
 
 ## Feature flow
 * Start with a well defined issue
