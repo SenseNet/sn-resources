@@ -47,7 +47,6 @@ On Wednesday:
 
 # Environments
 
-## URLs and branches
 Release
 * Backend: https://dmsservice.demo.sensenet.com - *master* branch - built daily
 * Frontend: https://dms.demo.sensenet.com - *master*
