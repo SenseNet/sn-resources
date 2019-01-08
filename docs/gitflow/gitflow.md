@@ -2,7 +2,7 @@
 
 ## Feature flow
 * Start with a well defined issue
-* Create a feature branch from *develop* branch
+* Create a *feature* branch from *develop* branch
 * Open a pull request (enables you to have a look on netlify, etc)
 * Work on it
 * Ask for review and testing. Related issues --> Review
@@ -27,7 +27,7 @@ On Wednesday:
 ## Hotfix flow
 * Open *hotfix* branch from *master* branch
 * Open a pull request (enables you to have a look on netlify, etc)
-* Fix.
+* Fix
 * Ask for review and testing. Related hotfix issues --> Review
 * Review and test. Related hotfix issues --> Done
 * Write changelog and communicate
