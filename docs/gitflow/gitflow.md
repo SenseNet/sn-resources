@@ -49,14 +49,14 @@ On Wednesday:
 # Environments
 
 Release
-* Backend: https://dmsservice.demo.sensenet.com - *master* branch - built daily
-* Frontend: https://dms.demo.sensenet.com - *master*
+* Backend: https://dmsservice.demo.sensenet.com - *master* branch - build daily
+* Frontend: https://dms.demo.sensenet.com - *master* - build daily
 
 Staging
-* Backend: https://dmsservice.demo.sensenet.com - *master*
-* Frontend: https://sn-dms-demo-staging.netlify.com - *staging*
+* Backend: https://dmsservice.demo.sensenet.com - *master* - build daily
+* Frontend: https://sn-dms-demo-staging.netlify.com - *staging* - build daily
 
 Develop
-* Backend: https://dmsservice.dev.sensenet.com - *develop* - build daily(?)
-* Frontend: https://sn-dms-demo-dev.netlify.com - *develop* - built on change(?)
+* Backend: https://dmsservice.dev.sensenet.com - *develop* - build on change
+* Frontend: https://sn-dms-demo-dev.netlify.com - *develop* - build daily
 
