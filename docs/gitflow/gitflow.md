@@ -1,10 +1,10 @@
 # SN Gitflows
 
 Branches
-* *master*: permanent branch for releases and production environments
+* *master*: permanent branch for production environments
 * *develop*: permanent branch for aggregating feature branches
 * *feature*: temporary branch for features and bugfixes
-* *staging*: temporary branch for creating near production QA environment with released backend
+* *staging*: temporary branch for each release, used for creating near production QA environment with released backend
 * *hotfix*: temporary branch for urgent and high importance fixes
 
 ## Feature flow
