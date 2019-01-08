@@ -2,11 +2,10 @@
 
 Branches
 * *master*: permanent branch for releases and production environments
-* *develop*: permanent branch for aggregating feature developments
-* *feature*: temporary branch for feature developments
-* *staging*: temporary branch for creating near production QA environment with stable backend(?)
+* *develop*: permanent branch for aggregating feature branches
+* *feature*: temporary branch for features and bugfixes
+* *staging*: temporary branch for creating near production QA environment with released backend
 * *hotfix*: temporary branch for urgent and high importance fixes
-* Q: where do bugs go?
 
 ## Feature flow
 * Start with a well defined issue
