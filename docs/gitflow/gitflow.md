@@ -1,17 +1,5 @@
 # SN Gitflows
 
-# Branches
-Permanent branches
-* *master*: for releases and production environments
-* *develop*: for aggregating feature developments
-
-?where do bugs go?
-
-Temporary branches
-* feature: for feature developments
-* hotfix: for urgent and high importance fixes
-* staging: for creating QA build with released backend(?)
-
 ## Feature flow
 * Start with a well defined issue
 * Create a *feature* branch from *develop* branch
@@ -50,7 +38,9 @@ On Wednesday:
 * Remove *hotfix* branch
 * Related issues --> Close
 
-# URLs and branches
+# Environments
+
+## URLs and branches
 Release
 * Backend: https://dmsservice.demo.sensenet.com - *master* branch - built daily
 * Frontend: https://dms.demo.sensenet.com - *master*
@@ -62,3 +52,16 @@ Staging
 Develop
 * Backend: https://dmsservice.dev.sensenet.com - *develop* - build daily(?)
 * Frontend: https://sn-dms-demo-dev.netlify.com - *develop* - built on change(?)
+
+## Branches
+Permanent branches
+* *master*: for releases and production environments
+* *develop*: for aggregating feature developments
+
+?where do bugs go?
+
+Temporary branches
+* *feature*: for feature developments
+* *hotfix*: for urgent and high importance fixes
+* *staging*: for creating QA build with released backend(?)
+
