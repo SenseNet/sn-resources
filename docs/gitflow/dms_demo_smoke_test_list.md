@@ -115,7 +115,7 @@ These depend on background settings and your permissions, but more or less the f
 
 ## Users & Groups
 
-## User page
+### User page
 
 * edit
 * add to groups
