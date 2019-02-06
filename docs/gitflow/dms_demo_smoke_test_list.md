@@ -1,6 +1,6 @@
 https://sensenet.sharepoint.com/Megosztott%20dokumentumok/Forms/AllItems.aspx?viewpath=%2FMegosztott%20dokumentumok%2FForms%2FAllItems%2Easpx&id=%2FMegosztott%20dokumentumok%2FDMS
 
-Aim of doc: a list of ideas to smoke/sanity test in a quick and shallow way
+A list of ideas for a quick and shallow but general smoke/sanity test
 
 ## General
 
