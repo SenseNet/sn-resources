@@ -13,17 +13,26 @@ Aim of doc: a list of ideas to smoke/sanity test in a quick and shallow way
 * user menu
 * message bar in bottom left corner
 
+### Ordering in lists
+
+## Document
+
+
+
+### Login
+
+* normal user
+* workspace admin
+
+### Logout
+
+
+
 ## Documents
 
 ### Register 
 
 ### Register with Google auth 
-
-### Login
-
-### Logout
-
-### Ordering in lists
 
 ### Change workspaces
 
@@ -32,7 +41,8 @@ Aim of doc: a list of ideas to smoke/sanity test in a quick and shallow way
 ### Breadcrumb
 
 * properly generated
-* breadcrumb menu
+* breadcrumb menu items
+* navigate by clicking on breadcrumb parts
 
 ### New
 
