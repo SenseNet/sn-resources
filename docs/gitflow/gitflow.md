@@ -53,7 +53,7 @@ Release
 
 Staging
 * Backend: https://dmsservice.demo.sensenet.com - *master* - built daily
-* Frontend: https://sn-dms-demo-staging.netlify.com - *staging* - built daily
+* Frontend: Dynamic URL from the release branch's PR (Netlify)
 
 Develop
 * Backend: https://devservice.demo.sensenet.com/ - *develop* - built daily and on change
