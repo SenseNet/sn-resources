@@ -1,22 +1,30 @@
 https://sensenet.sharepoint.com/Megosztott%20dokumentumok/Forms/AllItems.aspx?viewpath=%2FMegosztott%20dokumentumok%2FForms%2FAllItems%2Easpx&id=%2FMegosztott%20dokumentumok%2FDMS
 
-A list of ideas for a quick and shallow but general smoke/sanity test
 
-## General
 
-* grid
-  * ordering
-  * selections
-  * context menus
-  * 3dot menus
-* batch actions
-* user menu
-* message bar in bottom left corner
+## Register 
 
-### Ordering in lists
+### Successful registration
 
-## Document
+User successfully registers, after which she will be able to log in.
 
+* User opens app
+* Clicks Register tab
+* Provides following:
+  * username (correctly formatted email address)
+  * password 
+  * confirmed password
+  * captcha
+* clicks Register
+
+### Failed registration - passwords not identical, no password given or password strength/quality is not enough
+
+
+
+
+------ stuff to reuse -------
+
+### Register with Google auth 
 
 
 ### Login
@@ -28,11 +36,6 @@ A list of ideas for a quick and shallow but general smoke/sanity test
 
 
 
-## Documents
-
-### Register 
-
-### Register with Google auth 
 
 ### Change workspaces
 
@@ -132,3 +135,17 @@ These depend on background settings and your permissions, but more or less the f
 * save
 * rerun
 * delete
+
+## General
+
+* grid
+  * ordering
+  * selections
+  * context menus
+  * 3dot menus
+* batch actions
+* user menu
+* message bar in bottom left corner
+
+### Ordering in lists
+
