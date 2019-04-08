@@ -1,28 +1,117 @@
 https://sensenet.sharepoint.com/Megosztott%20dokumentumok/Forms/AllItems.aspx?viewpath=%2FMegosztott%20dokumentumok%2FForms%2FAllItems%2Easpx&id=%2FMegosztott%20dokumentumok%2FDMS
 
-
-
 ## Register 
 
-### Successful registration
-
-User successfully registers, after which she will be able to log in.
+### Registration
 
 * User opens app
-* Clicks Register tab
+* Clicks Register tab: /#/registration
 * Provides following:
-  * username (correctly formatted email address)
-  * password 
-  * confirmed password
-  * captcha
+  * E-mail: zoltan.kultsar.sensenet@gmail.com
+  * password: 5i8yfI7Nzo3Rvyr1Sj4P
+  * confirmed password: 5i8yfI7Nzo3Rvyr1Sj4P
+  * DISCUSS captcha: complete captcha. How...? :) Should we disable it?
 * clicks Register
 
-### Failed registration - passwords not identical, no password given or password strength/quality is not enough
+Result:
+* user is created at backend
+* user is added to [DISCUSS which groups]
+
+### Login with newly registered user
+
+* User opens app at https://sn-dms-demo-dev.netlify.com
+* system redirects to https://sn-dms-demo-dev.netlify.com/#/login
+* User types:
+  * E-mail: zoltan.kultsar.sensenet@gmail.com
+  * password: 5i8yfI7Nzo3Rvyr1Sj4P
+* User clicks Login button
+
+Result:
+* User should be successfully logged in
+* System redirects to https://sn-dms-demo-dev.netlify.com/#/documents/
+* Private doclib should display
+
+
+### Sign in with Google
+
+DISCUSS: Google returns error 400, Error: redirect_uri_mismatch
+
+## New - create new content in private workspace
+
+* User clicks "Documents", then "+ New", then:
+  * "New document". Window pops up, in which user enters/clicks:
+    * Display Name: "e2e_document"
+	* Watermark: "e2e_watermark"
+    * Index: "10"
+	* Clicks "Add reference". Reference picker window pops up, in which user clicks "Project"" / "Arizona Sales Workspace" / ".." / ".." / "Project" / "Budapest Project Workspace" / "Document Library" / "BusinessPlan.docx", then clicks OK.
+	* Clicks "Submit"
+  * New image
+    * Description: "e2e description" in bold and italics --> DISCUSS/ADD ISSUE: currently this is the keywords field.
+	* Date taken: "April 7th 09:10 pm"
+    * Index: "10"
+	* Width: 100
+	* Height: 200
+    * Display Name: "e2e_image"
+	* Watermark: "e2e_watermark"
+	* Clicks "Add reference". Reference picker window pops up, in which user clicks "Project"" / "Arizona Sales Workspace" / ".." / ".." / "Project" / "Budapest Project Workspace" / "Document Library" / "BusinessPlan.docx", then clicks OK.
+	* Clicks "Submit"
+  * New sheet
+    * Display Name: "e2e_sheet"
+	* Watermark: "e2e_watermark"
+    * Index: "10"
+	* Clicks "Add reference". Reference picker window pops up, in which user clicks "Project"" / "Arizona Sales Workspace" / ".." / ".." / "Project" / "Budapest Project Workspace" / "Document Library" / "BusinessPlan.docx", then clicks OK.
+	* Clicks "Submit"
+  * New slide
+    * Display Name: "e2e_slide"
+	* Watermark: "e2e_watermark"
+    * Index: "10"
+	* Clicks "Add reference". Reference picker window pops up, in which user clicks "Project"" / "Arizona Sales Workspace" / ".." / ".." / "Project" / "Budapest Project Workspace" / "Document Library" / "BusinessPlan.docx", then clicks OK.
+	* Clicks "Submit"
+  * New text
+    * Display Name: "e2e_text"
+	* Watermark: "e2e_watermark"
+    * Index: "10"
+	* Clicks "Add reference". Reference picker window pops up, in which user clicks "Project"" / "Arizona Sales Workspace" / ".." / ".." / "Project" / "Budapest Project Workspace" / "Document Library" / "BusinessPlan.docx", then clicks OK.
+	* Clicks "Submit"
+  * New folder
+    * Folder name: "e2e_folder"
+	* Clicks "Submit"
+
+Result:
+* Following contents are created:
+  * /Root/Profiles/Public/alba/Document_Library/e2e_document.docx
+  * /Root/Profiles/Public/alba/Document_Library/e2e_image.png
+  * /Root/Profiles/Public/alba/Document_Library/e2e_sheet.xlsx
+  * /Root/Profiles/Public/alba/Document_Library/e2e_slide.pptx
+  * /Root/Profiles/Public/alba/Document_Library/e2e_text.txt
+  * /Root/Profiles/Public/alba/Document_Library/e2e_folder
+* with reference to /Root/Sites/Default_Site/workspaces/Project/budapestprojectworkspace/Document_Library/BusinessPlan.docx
+* with the other properties above
+
+ 
+## New - create new content in Budapest workspace
+
+New document
+New image
+New sheet
+New slide
+New text
+New folder
+
+
+
+
+
+
+
+
 
 
 
 
 ------ stuff to reuse -------
+
+### Failed registration - passwords not identical, no password given or password strength/quality is not enough
 
 ### Register with Google auth 
 
