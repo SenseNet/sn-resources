@@ -26,6 +26,9 @@ Every 4th Monday
 * Write changelog/package release and aggregated changelog and newsletter, blog, social
 
 On Wednesday:
+* yarn clean:packages
+* yarn build
+* yarn jest/yarn test
 * Lerna publish
 * Merge *staging* into *master*
 * Merge *staging* into *develop*
