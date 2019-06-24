@@ -19,21 +19,33 @@ Branches
 
 ## Release flow
 Every 4th Monday
-* Freeze *develop* branch --> Open a *staging* branch from *develop*
+* Freeze *develop* branch (do not merge any more pr to develop)
+* Create a release branch with [git flow](https://danielkummer.github.io/git-flow-cheatsheet/#release)
+* Increase the root package.json version to match with [semver](https://docs.npmjs.com/about-semantic-versioning)
+* Run `yarn lerna version --no-git-tag-version --no-push` //ommit --no-push to push it automatically
+  * bump packages version
 * Open pull request to *develop* branch
-* Testing (smoke)
-* Fix showstopper bugs in *staging* branch
+* Do some testing (run unit and e2e tests)
+* Fix showstopper bugs in *release* branch
 * Write changelog/package release and aggregated changelog and newsletter, blog, social
+  * Create a changelog in [sensenet.github.io](https://github.com/SenseNet/sensenet.github.io) under _updates
 
 On Wednesday:
-* yarn clean:packages
-* yarn build
-* yarn jest/yarn test
-* Lerna publish
-* Merge *staging* into *master*
-* Merge *staging* into *develop*
-* Remove *staging* branch
-* Related issues --> Close
+* Do the branching
+  * When everything is green on your pr, checkout the release branch on your computer if not checked out previously
+  * run `git flow release finish *RELEASE*` or finish it in gui with [SourceTree](https://www.sourcetreeapp.com/) // where RELEASE is the name of the release branch eg release/2019.6.0 would be 2019.6.0 
+    This will close the pull request on GitHub.
+  * Push develop and master to origin with the git tag `// git push origin --tags`
+* Publish to npm
+  * `git checkout master`
+  * `npm login`
+  * `yarn` // To install dependecies
+  * `yarn clean:packages` // This will remove all dist folders from the packages
+  * `yarn build`
+  * `yarn test` // Sanity check
+  * `yarn lerna publish from-package` // Lerna will publish all the packages that aren't in the registry yet
+* Edit the relase tag in GitHub and paste the changelog from [sensenet.github.io](https://github.com/SenseNet/sensenet.github.io) 
+* Have a good one! 🍺 You have just published a new release. 🌟
 
 ## Hotfix flow
 * Create *hotfix* branch from *master* branch
