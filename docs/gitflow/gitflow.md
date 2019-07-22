@@ -22,9 +22,9 @@ Every 4th Monday
 * Freeze *develop* branch (do not merge any more pr to develop)
 * Create a release branch with [git flow](https://danielkummer.github.io/git-flow-cheatsheet/#release)
 * Increase the root package.json version to match with [semver](https://docs.npmjs.com/about-semantic-versioning)
-* Run `yarn lerna version --no-git-tag-version --no-push` //ommit --no-push to push it automatically
+* Run `yarn lerna version --no-git-tag-version --include-merged-tags`
   * bump packages version
-* Open pull request to *develop* branch
+* Open pull request to *master* branch
 * Do some testing (run unit and e2e tests)
 * Fix showstopper bugs in *release* branch
 * Write changelog/package release and aggregated changelog and newsletter, blog, social
