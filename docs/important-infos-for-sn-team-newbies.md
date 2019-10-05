@@ -8,7 +8,7 @@
  - [ZenHub](https://www.zenhub.com/)
 
 ## Docs
- - [GIT workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+ - [Git workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
  - [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Links
