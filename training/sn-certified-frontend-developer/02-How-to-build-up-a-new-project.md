@@ -107,10 +107,10 @@ You can now finish the feature (merge the Pull request to develop) and delete th
 1. Create a *release/1.0.0* branch from *develop*: ```git branch release/1.0.0 develop``` and check it out: ```git checkout release/1.0.0```.
 1. Usually, at this point you can do some release-specific changes (e.g. bumping version number). For now, let's update the Readme with the latest released version and commit it.
 1. Publish the release branch
-1. On GitHub, Create and finish a pull request from the **release branch** to **master**. You can use **Sqash and merge**. Remove the release branch.
+1. On GitHub, Create and finish a pull request from the **release branch** to **master**. You can use **Squash and merge**. Remove the release branch.
 1. On the console, check out the master branch and add a tag: ```git tag 1.0.0```. Push the *tags*: ```git push --tags```
 1. Create and finish a pull request from **master** to **develop**. 
 At this point, you have only **master** and **develop** branches, and they contains the same commits.
-1. Finially, you can check *releases* and update the Release Notes.
+1. Finally, you can check *releases* and update the Release Notes.
 
 [Single Page Application requirements](https://github.com/SenseNet/sn-resources/blob/master/docs/react-spa-requirements.md)

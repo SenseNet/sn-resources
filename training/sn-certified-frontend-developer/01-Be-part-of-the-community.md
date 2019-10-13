@@ -43,8 +43,8 @@ Your questions and answers can be valuable to the community. Take a [Tour](https
 - Help others to make their answers better, collaborate
 - Provide detailed analysis of the question
 - Post an answer that does what the OP wants, but the way it should be done
-- Post multiple answers that are significaly different
-- Once you have the priviledge to review, review a lot
+- Post multiple answers that are significantly different
+- Once you have the privilege to review, review a lot
 - Use google effectively
 - Keep your reference open
 - Involve yourself to earn badges
@@ -64,7 +64,7 @@ You can create a Local repository from a remote one using by *cloning* it:
 $ git clone http://username@hostname.com/giturl/gitreponame.git
 ```
 
-### Commiting changes
+### Committing changes
 
 1. Add files to staging: ```git stage filename``` or ```git stage .``` if you want to include all changes. These files will be included in the next commit.
 2. Create the Commit: ```git commit -m "Commit message"```
@@ -86,7 +86,7 @@ If there are local files / directories that you want to be ignored, you can add 
 **Strong recommendation:**
  - Always ignore external packages / libraries that are managed by a package manager (e.g. NPM's *node_modules* or NuGet Packages). They should be installed by the Package Manager with ```npm install``` or ```nuget restore```.
  - Ignore build artifacts (dlls, exes, minified/bundled js, etc...). They should be created *during* the build process.
- - Try to avoid commiting large binaries.
+ - Try to avoid committing large binaries.
 
 ### GIT Flow
 Git Flow is a recommendation how you can manage your feature, release and hotfix branches.
@@ -140,7 +140,7 @@ There are many advantages:
 
 ### Useful links
 
-[Summary about the GIT Contepts](https://www.intertech.com/Blog/introduction-to-git-concepts/)
+[Summary about the GIT Concepts](https://www.intertech.com/Blog/introduction-to-git-concepts/)
 
 [Download GIT client for Windows](https://git-scm.com/download/win)
 

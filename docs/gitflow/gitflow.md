@@ -39,12 +39,12 @@ On Wednesday:
 * Publish to npm
   * `git checkout master`
   * `npm login`
-  * `yarn` // To install dependecies
+  * `yarn` // To install dependencies
   * `yarn clean:packages` // This will remove all dist folders from the packages
   * `yarn build`
   * `yarn test` // Sanity check
   * `yarn lerna publish from-package` // Lerna will publish all the packages that aren't in the registry yet
-* Edit the relase tag in GitHub and paste the changelog from [sensenet.github.io](https://github.com/SenseNet/sensenet.github.io) 
+* Edit the release tag in GitHub and paste the changelog from [sensenet.github.io](https://github.com/SenseNet/sensenet.github.io) 
 * Have a good one! 🍺 You have just published a new release. 🌟
 
 ## Hotfix flow
