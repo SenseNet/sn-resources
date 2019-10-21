@@ -47,6 +47,13 @@ On Wednesday:
 * Edit the release tag in GitHub and paste the changelog from [sensenet.github.io](https://github.com/SenseNet/sensenet.github.io) 
 * Have a good one! 🍺 You have just published a new release. 🌟
 
+Post-release tasks
+* Update dependencies in the [sn-client](https://github.com/SenseNet/sn-client) monorepo
+  * create a new branch from develop
+  * `yarn upgrade-interactive --latest`
+  * `delete yarn.lock`
+  * `yarn` // To re-create yarn.lock
+
 ## Hotfix flow
 * Create *hotfix* branch from *master* branch
 * Open a pull request to *master* branch
