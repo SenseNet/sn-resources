@@ -49,6 +49,7 @@ On Wednesday:
 
 Post-release tasks
 * Update dependencies in the [sn-client](https://github.com/SenseNet/sn-client) monorepo
+  * create a new branch from develop
   * `yarn upgrade-interactive --latest`
   * `delete yarn.lock`
   * `yarn` // To re-create yarn.lock
