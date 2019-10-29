@@ -4,7 +4,7 @@
 
  - [Git command line client](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
  - [VS Code](https://code.visualstudio.com/)
- - [NPM & Commitizen]()
+ - [NPM & Commitizen](https://www.npmjs.com/package/commitizen)
  - [ZenHub](https://www.zenhub.com/)
 
 ## Docs
