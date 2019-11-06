@@ -1,7 +1,7 @@
 {
   "name": "sn-resources",
   "version": "1.0.0",
-  "description": "The place of sensenet ECM related downloadable resources",
+  "description": "The place of sensenet related downloadable resources",
   "main": "index.js",
   "directories": {
     "doc": "docs"
