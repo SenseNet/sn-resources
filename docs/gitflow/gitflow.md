@@ -32,6 +32,7 @@ Every 4th Monday
 
 On Wednesday:
 * Do the branching
+  * Update your master and develop branches (`git checkout develop && git pull` and `git checkout master && git pull`)
   * When everything is green on your pr, checkout the release branch on your computer if not checked out previously
   * run `git flow release finish *RELEASE*` or finish it in gui with [SourceTree](https://www.sourcetreeapp.com/) // where RELEASE is the name of the release branch eg release/2019.6.0 would be 2019.6.0 
     This will close the pull request on GitHub.
