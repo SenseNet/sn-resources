@@ -27,7 +27,7 @@ Every 4th Monday
 * Open pull request to *master* branch
 * Do some testing (run unit and e2e tests)
 * Audit the netlify build with [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools), check for regressions
-* Check [relativeCI](https://app.relative-ci.com/projects/SpRCK0ViJsBVzSUtpFtk) for bunde size changes
+* Check [relativeCI](https://app.relative-ci.com/projects/SpRCK0ViJsBVzSUtpFtk) for bundle size changes
 * Fix showstopper bugs in *release* branch
 * Write changelog/package release and aggregated changelog and newsletter, blog, social
   * Create a changelog in [sensenet.github.io](https://github.com/SenseNet/sensenet.github.io) under _updates
@@ -83,4 +83,3 @@ Staging
 Develop
 * Backend: https://devservice.demo.sensenet.com/ - *develop* - built daily and on change
 * Frontend: https://sn-dms-demo-dev.netlify.com - *develop* - built daily
-
