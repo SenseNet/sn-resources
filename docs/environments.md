@@ -10,7 +10,6 @@ Followings basically are for development purposes for developers of Sense/Net In
 | sn services old (.net framework) release candidate || netfw.service.sn.hu | daily | dev |
 | sn services new (.net core) last public release || netcore.service.sn.hu | daily | master |
 | sn services new (.net core) release candidate || netcore-dev.service.sn.hu | daily | dev |
-
 | admin-ui dev || admin.dev.sn.hu | daily | dev |
 | snoversn dev app || snover.dev.sn.hu | daily | dev |
 | snoversn dev repository || snover-dev.service.sn.hu | daily | dev |
