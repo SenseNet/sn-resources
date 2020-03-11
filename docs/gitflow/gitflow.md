@@ -56,6 +56,8 @@ Post-release tasks
   * `yarn upgrade-interactive --latest`
   * `delete yarn.lock`
   * `yarn` // To re-create yarn.lock
+  * `yarn build`
+  * `yarn test`
 
 ## Hotfix flow
 * Create *hotfix* branch from *master* branch
