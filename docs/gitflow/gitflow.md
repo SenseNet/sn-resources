@@ -75,13 +75,13 @@ Post-release tasks
 # Environments
 
 Release
-* Backend: https://dmsservice.demo.sensenet.com - *master* branch - built daily
-* Frontend: https://dms.demo.sensenet.com - *master* - built daily
+* Backend: https://netcore-service.test.sensenet.com/ - *master* branch - built daily
+* Frontend: https://admin.test.sensenet.com/ - *master* - built daily
 
 Staging
-* Backend: https://dmsservice.demo.sensenet.com - *master* - built daily
+* Backend: https://netcore-service.test.sensenet.com/ - *master* - built daily
 * Frontend: Dynamic URL from the release branch's PR (Netlify)
 
 Develop
-* Backend: https://devservice.demo.sensenet.com/ - *develop* - built daily and on change
-* Frontend: https://sn-dms-demo-dev.netlify.com - *develop* - built daily
+* Backend: https://netcore-service.ev.sensenet.com/ - *develop* - built daily and on change
+* Frontend: https://admin.dev.sn.hu - *develop* - built daily
