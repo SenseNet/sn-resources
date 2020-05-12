@@ -13,12 +13,19 @@ Followings basically are for development purposes for developers of Sense/Net In
 | admin-ui dev || admin.dev.sn.hu | daily | dev |
 | snoversn dev app || snover.dev.sn.hu | daily | dev |
 | snoversn dev repository || snover-dev.service.sn.hu | daily | dev |
-| snoversn identity dev server || is.dev.sn.hu | daily | dev |
+| identity dev server || is.dev.sn.hu | daily | dev |
 | taskamanager for dev repos || taskmanager.dev.sn.hu | manual | dev |
 
 # Test environments
 
 Followings are for testing purposes to verify release candidates or run tests and tasks that are resource intesives and/or time-consumings. These environments/sites are not public.
+
+| NAME | DESCRIPTION | URL | BUILD/UDATE | BRANCH |
+| ---- | ----------- | --- | --------------------- | ------ |
+| sn services new (.net core) || netcore-service.test.sensenet.com | daily | dev |
+| admin-ui test || admin.test.sensenet.com | daily | dev |
+| snoversn test repository || snover-service.test.sensenet.com | manual | dev |
+| identity test server || is.test.sensenet.com | manual | dev |
 
 # Demo environments
 
