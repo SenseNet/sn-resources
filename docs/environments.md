@@ -38,3 +38,9 @@ Following sites are for demo purposes, mostly to demonstrate the future SNaaS pa
 | sales demo | | https://sales.demo.sensenet.com| manual | master |
 
 # Production environments
+
+| NAME | DESCRIPTION | URL | BUILD/UDATE | BRANCH |
+| ---- | ----------- | --- | --------------------- | ------ |
+| admin-ui test || admin.sensenet.com | release | dev |
+| snoversn test repository || snover.service.sensenet.com | manual | dev |
+| identity prod server || is.sensenet.com | manual | dev |
