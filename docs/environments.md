@@ -41,6 +41,6 @@ Following sites are for demo purposes, mostly to demonstrate the future SNaaS pa
 
 | NAME | DESCRIPTION | URL | BUILD/UDATE | BRANCH |
 | ---- | ----------- | --- | --------------------- | ------ |
-| admin-ui test || admin.sensenet.com | release | dev |
+| admin-ui test || admin.sensenet.com | release | master |
 | snoversn test repository || snover.service.sensenet.com | manual | dev |
 | identity prod server || is.sensenet.com | manual | dev |
