@@ -18,3 +18,4 @@
 2. Update central IS
 3. Update admin-ui
 4. Update SNaaS profile
+5. Update sensenet.com
