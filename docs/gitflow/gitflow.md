@@ -32,6 +32,14 @@ Every 4th Wednesday
 - Do some testing (run unit and e2e tests)
   - unit tests will run on github automatically -> you should only check the results
   - e2e tests can be run on github and locally as well (on github start the AdminUI end-to-end tests workflow, locally you should run tests on https://e2e-service.test.sensenet.com repository)
+  - check cypress code coverage on your local environment:
+    ```
+    Edit the cypress json file: baseUrl should be http://localhost:8080
+    Run yarn snapp instrument command
+    Wait for the admin ui to start
+    Run yarn snapp cypress:coverage command
+    ```
+    Please attach the result to the description of the release PR.
 - Audit the netlify build with [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools), check for regressions, compare it with previous results
   - lighthouse report should be run on the generated netlify url with https://dev.demo.sensenet.com repository. The recommended browser is chrome, it should be run in incognito window. In the settings you should also turn off the clear storage option. Please attach the result to the description of the release PR.
 - Check [relativeCI](https://app.relative-ci.com/projects/SpRCK0ViJsBVzSUtpFtk) for bundle size changes, compare it with the previous. Please attach results to the description of the release PR.
