@@ -89,7 +89,7 @@ Test
 - Backend: https://netcore-service.test.sensenet.com/ - _master_ branch - built daily
 - Frontend: https://admin.test.sensenet.com/ - _master_ - built daily
 
-Staging
+Release/Staging
 
 - Backend: https://netcore-service.test.sensenet.com/ - _master_ - built daily
 - Frontend: Dynamic URL from the release branch's PR (Netlify)
