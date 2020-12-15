@@ -34,7 +34,7 @@ Every 4th Wednesday
   - e2e tests can be run on github and locally as well (on github start the AdminUI end-to-end tests workflow, locally you should run tests on https://e2e-service.test.sensenet.com repository)
 - Audit the netlify build with [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools), check for regressions, compare it with previous results
   - lighthouse report should be run on the generated netlify url with https://dev.demo.sensenet.com repository. The recommended browser is chrome, it should be run in incognito window. In the settings you should also turn off the clear storage option. Please attach the result to the description of the release PR.
-- Check [relativeCI](https://app.relative-ci.com/projects/SpRCK0ViJsBVzSUtpFtk) for bundle size changes, compare it with the previous. Please attach the result to the description of the release PR.
+- Check [relativeCI](https://app.relative-ci.com/projects/SpRCK0ViJsBVzSUtpFtk) for bundle size changes, compare it with the previous. Please attach results to the description of the release PR.
 - Fix showstopper bugs in _release_ branch
 - Write changelog/package release and aggregated changelog and newsletter, blog, social
   - Create a changelog in [sensenet.github.io](https://github.com/SenseNet/sensenet.github.io) under \_updates (You should create your branch from master)
