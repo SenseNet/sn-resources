@@ -84,7 +84,7 @@ Post-release tasks
 
 # Environments
 
-Release
+Test
 
 - Backend: https://netcore-service.test.sensenet.com/ - _master_ branch - built daily
 - Frontend: https://admin.test.sensenet.com/ - _master_ - built daily
