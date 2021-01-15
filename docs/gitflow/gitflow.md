@@ -5,7 +5,7 @@ Branches
 - _master_: permanent branch for production environments
 - _develop_: permanent branch for aggregating feature branches
 - _feature_: temporary branch for features and bugfixes
-- _staging_: temporary branch for each release, used for creating near production QA environment with released backend
+- _release_: temporary branch for each release, used for creating near production QA environment with released backend
 - _hotfix_: temporary branch for urgent and high importance fixes
 
 ## Feature flow
