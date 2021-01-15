@@ -94,15 +94,10 @@ Post-release tasks
 
 Test
 
-- Backend: https://netcore-service.test.sensenet.com/ - _master_ branch - built daily
-- Frontend: https://admin.test.sensenet.com/ - _master_ - built daily
-
-Release/Staging
-
-- Backend: https://netcore-service.test.sensenet.com/ - _master_ - built daily
-- Frontend: Dynamic URL from the release branch's PR (Netlify)
+- Backend: https://netcore-service.test.sensenet.com/ - _develop_ branch - built daily
+- Frontend: https://admin.test.sensenet.com/ - _develop_ - built daily, built on push
 
 Develop
 
-- Backend: https://netcore-service.ev.sensenet.com/ - _develop_ - built daily and on change
+- Backend: https://netcore-dev.service.sn.hu/  - _develop_ - built daily and on change
 - Frontend: https://admin.dev.sn.hu - _develop_ - built daily
