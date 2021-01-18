@@ -101,3 +101,7 @@ Develop
 
 - Backend: https://netcore-dev.service.sn.hu/  - _develop_ - built daily and on change
 - Frontend: https://admin.dev.sn.hu - _develop_ - built daily
+
+Release: 
+
+- Frontend: https://admin.sensenet.com/ - *master* - built on push
