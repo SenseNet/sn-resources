@@ -214,6 +214,21 @@ In this section we can configure the behavior of the central user activity monit
 }
 ```
 
+### Repository supervisor
+These configuration entries determine how the repository assign process works.
+
+```json
+"sensenet": {
+  "SNaaS": {
+    "RepositorySupervisor": {
+      "ExpectedCountOfAssignableRepositories": 123,
+      "WarmupTimeInSeconds": 123,
+      "PingAllTimeout": 123,
+      "PingDelayInMilliseconds": 123
+    }
+  }
+}
+```
 
 ## IdentityServer
 The following settings are related to the authentication service powered by IdentityServer.
