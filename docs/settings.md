@@ -1,14 +1,24 @@
 # sensenet as a service configuration
 
 ## Repository service
-In this section we list configurations available in the repository application. As the central service is also a repository, these settings also apply to that application too.
+In this section we list configurations available in the repository application. As the central service is also a repository, these settings generally apply to that application too.
 
-###
-Connection strings for the database.
+### Connection strings
 
 ```json
 "ConnectionStrings": {
  "SnCrMsSql": "sql.server.connection"
+}
+```
+
+### Authentication service
+
+```json
+"sensenet": {
+ "authentication": {
+   "authority": "https://authority.url",
+   "AddJwtCookie": true
+ }
 }
 ```
 
@@ -28,8 +38,46 @@ For the client repository to work correctly, it has to access the central servic
 }
 ```
 
+### User activity monitor
+In this section we can configure the behavior of the user activity monitor module that sends statistics to the central service.
+
+> Please note these settings are different from the ones on the central service side. 
+
+```json
+"snaasRepository": {
+  "UserActivityMonitor": {
+    "RegisteringFrequencyInMinutes": 123
+  }
+}
+```
+
+### Usage limits
+The system will control content creation and repository usage limits based on these settings.
+
+```json
+"snaasRepository": {
+  "limits": {
+    "maxFunctionRequestsPerSecond": 123,
+    "maxActionRequestsPerSecond": 123,
+    "maxPayloadInBytes": 123
+  }
+}
+```
+
+### Registration
+You can customize the user type for new users and the groups they are assigned to by default.
+
+```json
+"sensenet": {
+  "Registration": {
+    "Groups": [],
+    "UserType": ""
+  }
+}
+```
+
 ### Taskmanager settings
-Taskmanager service takes care for various long-running background tasks, e.g. generating preview images.
+Taskmanager service takes care of various long-running background tasks, e.g. generating preview images.
 
 ```json
 "sensenet": {
@@ -137,6 +185,36 @@ To be able to send email notifications an external smtp server is needed. This i
 }
 ```
 
+## Central service
+The following settings are related to the central service powering the SNaaS architecture. Most configuration options listed in the previous section are also available here.
+
+### Notifications
+Base domain of the administrative UI to be included in notification emails.
+
+```json
+"sensenet": {
+  "SNaaS": {
+      "Notification": {
+        "AdminUIUrl": "https://admin.ui.url"
+      } 
+    }
+}
+```
+
+### User activity monitor
+In this section we can configure the behavior of the central user activity monitor module. 
+
+> Please note these settings are different from the ones on the repository side. 
+
+```json
+"snaasRepository": {
+  "UserActivityMonitor": {
+    "InactivityPeriodInDays": 123
+  }
+}
+```
+
+
 ## IdentityServer
 The following settings are related to the authentication service powered by IdentityServer.
 
@@ -160,7 +238,7 @@ Users can log in using various external providers, like Google or GitHub.
 ```
 
 ### Notifications
-Base domain of the administrative UI to be used in notification emails.
+Base domain of the administrative UI to be included in notification emails.
 
 ```json
 "sensenet": {
