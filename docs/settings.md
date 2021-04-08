@@ -252,6 +252,18 @@ Users can log in using various external providers, like Google or GitHub.
 }
 ```
 
+### Mailing list
+When a new user registers, we may add them to one or more mailing lists.
+
+```json
+"sensenet": {
+  "MailChimp": {
+    "ApiKey": "",
+    "RegistrationLists": ["audience name"]
+  }
+}
+```
+
 ### Notifications
 Base domain of the administrative UI to be included in notification emails.
 
