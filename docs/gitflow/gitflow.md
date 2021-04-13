@@ -59,8 +59,7 @@ On Monday:
   - `git checkout master`
   - `npm login`
   - `yarn` // To install dependencies
-  - `yarn clean:packages` // This will remove all dist folders from the packages
-  - `yarn build`
+  - `yarn build:release`
   - `yarn test` // Sanity check
   - `yarn lerna publish from-package` // Lerna will publish all the packages that aren't in the registry yet
 - Edit the release tag in GitHub and paste the changelog from [sensenet.github.io](https://github.com/SenseNet/sensenet.github.io)
