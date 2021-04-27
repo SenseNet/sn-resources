@@ -265,12 +265,14 @@ When a new user registers, we may add them to one or more mailing lists.
 ```
 
 ### Notifications
-Base domain of the administrative UI to be included in notification emails.
+- **AdminEmail**: email address for notifying administrators about registration events.
+- **AdminUIUrl**: base domain of the administrative UI to be included in notification emails.
 
 ```json
 "sensenet": {
   "SNaaS": {
       "Notification": {
+        "AdminEmail": "",
         "AdminUIUrl": "https://admin.ui.url"
       } 
     }
