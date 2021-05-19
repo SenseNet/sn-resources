@@ -62,7 +62,7 @@ On Monday:
   - `yarn build:release`
   - `yarn test` // Sanity check
   - `yarn lerna publish from-package` // Lerna will publish all the packages that aren't in the registry yet
-- Edit the release tag in GitHub and paste the changelog from [sensenet.github.io](https://github.com/SenseNet/sensenet.github.io)
+- Edit the release tag in GitHub and paste the changelog from [sncom-resources](https://github.com/SenseNet/sncom-resources)
 - Have a good one! 🍺 You have just published a new release. 🌟
 
 Post-release tasks
